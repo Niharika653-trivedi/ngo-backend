@@ -57,7 +57,7 @@ const DashboardPage = () => {
 
   useEffect(() => {
     fetchStats().catch(() => {});
-    voice.speak("Welcome to the NGO CRM dashboard");
+    voice.speak("Welcome to the  dashboard");
   }, [fetchStats]);
 
   useEffect(() => {
@@ -134,7 +134,7 @@ const DashboardPage = () => {
     <div className="min-h-screen bg-[#edf2ec] p-4">
       <div className="grid grid-cols-12 gap-4">
         <aside className="col-span-2 rounded-2xl bg-[#f5f7f4] p-4 shadow">
-          <h2 className="mb-6 text-lg font-bold">Humanist Curator</h2>
+          <h2 className="mb-6 text-lg font-bold">Atmadeepam Society</h2>
           {menu.map((m) => (
             <button key={m} className={`mb-2 flex w-full items-center gap-2 rounded-lg px-3 py-2 text-left ${active === m ? "bg-ngo-100 text-ngo-900" : "hover:bg-white"}`} onMouseEnter={() => voice.speak(m)} onClick={() => setActive(m)}>
               <FaChartBar /> {m}

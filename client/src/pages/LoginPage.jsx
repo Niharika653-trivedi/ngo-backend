@@ -52,7 +52,7 @@ const LoginPage = () => {
         <div className="relative max-w-lg space-y-4">
           <h1 className="text-5xl font-bold">Atmadeepam Society</h1>
           <h2 className="text-3xl font-semibold">Empowering Vision Beyond Sight</h2>
-          <p className="text-lg">Empowering visually impaired individuals through technology, education, and care.</p>
+          <p className="text-lg">Atmadeepam Society Nagpur is a non-profit organization established in 2012 in Nagpur, Maharashtra, dedicated to empowering differently-abled individuals—especially the visually impaired—through education, skill development, and holistic rehabilitation.</p>
         </div>
       </section>
       <section className="flex items-center justify-center bg-[#e9eee7] p-6">
