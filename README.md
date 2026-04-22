@@ -14,5 +14,7 @@ This backend is currently deployed on Render.
 
 📄 License
 This project is for academic and community use.
+
 👩‍💻 Developed By
+
 Niharika Trivedi
